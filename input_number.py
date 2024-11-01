@@ -15,7 +15,7 @@ while True:
             if 1 <= number <= 50:
                 total_input += 1
             #Counts number of input between 1 to 10
-            elif 1 <= number <= 10:
+            if 1 <= number <= 10:
                 num1_to_10 += 1
             #Counts number of input between 11 to 20
             elif 11 <= number <= 20:
@@ -35,3 +35,10 @@ while True:
     #Stop the loop if input is invalid
     except:
         break
+
+print(f"Total number of inputs = {total_input}")
+print(f"1 to 10 = {num1_to_10}")
+print(f"11 to 20 = {num11_to_20}")
+print(f"21 to 30 = {num21_to_30}")
+print(f"31 to 40 = {num31_to_40}")
+print(f"41 to 50 = {num41_to_50}")
