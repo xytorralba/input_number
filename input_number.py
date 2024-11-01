@@ -1,3 +1,10 @@
+total_input = 0
+num1_to_10 = 0
+num11_to_20 = 0
+num21_to_30 = 0
+num31_to_40 = 0
+num41_to_50 = 0
+
 #Loop: asks user to input numbers from 1 to 50
 #Counts number of input between 1 to 10
 #Counts number of input between 11 to 20
